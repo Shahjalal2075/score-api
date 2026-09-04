@@ -23,7 +23,7 @@ const DATA_DIR = path.resolve(process.env.DATA_DIR || path.join(process.cwd(), "
 const STATE_FILE = path.join(DATA_DIR, "auto-send.json");
 
 /** How often a cycle runs. */
-export const AUTO_SEND_INTERVAL_MS = 10 * 60 * 1000;
+export const AUTO_SEND_INTERVAL_MS = 5 * 60 * 1000;
 
 /**
  * How long to keep going after a match finishes.
