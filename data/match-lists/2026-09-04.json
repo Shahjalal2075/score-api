@@ -1,0 +1,1276 @@
+{
+  "fetchedAt": "2026-09-04T05:34:09.803Z",
+  "data": {
+    "data": [
+      {
+        "id": "54287662",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "World",
+          "name": "World",
+          "logo": "http://highlightly.net/cricket/images/countries/World.png"
+        },
+        "dayType": "SINGLE",
+        "format": "T20",
+        "startTime": "2026-09-04T07:30:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": "Match yet to begin",
+          "description": "Scheduled"
+        },
+        "awayTeam": {
+          "id": "51744037",
+          "logo": null,
+          "name": "Portugal Women",
+          "abbreviation": "POR-W"
+        },
+        "homeTeam": {
+          "id": "44778827",
+          "logo": "https://highlightly.net/cricket/images/teams/44778827.png",
+          "name": "Belgium Women",
+          "abbreviation": "BEL-W"
+        },
+        "league": {
+          "id": "54287347",
+          "logo": null,
+          "name": "Czech Republic Women's T20I Tri-Series",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54287452",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "RS",
+          "name": "Serbia",
+          "logo": "http://highlightly.net/cricket/images/countries/RS.svg"
+        },
+        "dayType": "SINGLE",
+        "format": "T20",
+        "startTime": "2026-09-04T08:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": "Match yet to begin",
+          "description": "Scheduled"
+        },
+        "awayTeam": {
+          "id": "50333012",
+          "logo": "https://highlightly.net/cricket/images/teams/50333012.png",
+          "name": "Croatia Women",
+          "abbreviation": "CRO-W"
+        },
+        "homeTeam": {
+          "id": "46577897",
+          "logo": "https://highlightly.net/cricket/images/teams/46577897.png",
+          "name": "Serbia Women",
+          "abbreviation": "SRB-W"
+        },
+        "league": {
+          "id": "54287242",
+          "logo": null,
+          "name": "Serbia Women's T20I Tri-Series",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54287732",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "CZ",
+          "name": "Czech Republic",
+          "logo": "http://highlightly.net/cricket/images/countries/CZ.svg"
+        },
+        "dayType": "SINGLE",
+        "format": "T20",
+        "startTime": "2026-09-04T14:30:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": "Match yet to begin",
+          "description": "Scheduled"
+        },
+        "awayTeam": {
+          "id": "44778827",
+          "logo": "https://highlightly.net/cricket/images/teams/44778827.png",
+          "name": "Belgium Women",
+          "abbreviation": "BEL-W"
+        },
+        "homeTeam": {
+          "id": "50302772",
+          "logo": "https://highlightly.net/cricket/images/teams/50302772.png",
+          "name": "Czech Republic Women",
+          "abbreviation": "CZE-W"
+        },
+        "league": {
+          "id": "54287347",
+          "logo": null,
+          "name": "Czech Republic Women's T20I Tri-Series",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54248602",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "World",
+          "name": "World",
+          "logo": "http://highlightly.net/cricket/images/countries/World.png"
+        },
+        "dayType": "SINGLE",
+        "format": "ODI",
+        "startTime": "2026-09-04T01:30:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": null,
+          "description": "No live coverage"
+        },
+        "awayTeam": {
+          "id": "947",
+          "logo": "https://highlightly.net/cricket/images/teams/947.png",
+          "name": "Singapore",
+          "abbreviation": "SGP"
+        },
+        "homeTeam": {
+          "id": "4902",
+          "logo": "https://highlightly.net/cricket/images/teams/4902.png",
+          "name": "Qatar",
+          "abbreviation": "QAT"
+        },
+        "league": {
+          "id": "54247902",
+          "logo": null,
+          "name": "ACC Men's Premier Cup",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54248637",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "World",
+          "name": "World",
+          "logo": "http://highlightly.net/cricket/images/countries/World.png"
+        },
+        "dayType": "SINGLE",
+        "format": "ODI",
+        "startTime": "2026-09-04T01:30:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": null,
+          "description": "No live coverage"
+        },
+        "awayTeam": {
+          "id": "3747",
+          "logo": "https://highlightly.net/cricket/images/teams/3747.png",
+          "name": "Saudi Arabia",
+          "abbreviation": "KSA"
+        },
+        "homeTeam": {
+          "id": "2137",
+          "logo": "https://highlightly.net/cricket/images/teams/2137.png",
+          "name": "Bahrain",
+          "abbreviation": "BHR"
+        },
+        "league": {
+          "id": "54247902",
+          "logo": null,
+          "name": "ACC Men's Premier Cup",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54233657",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "World",
+          "name": "World",
+          "logo": "http://highlightly.net/cricket/images/countries/World.png"
+        },
+        "dayType": "SINGLE",
+        "format": "T20",
+        "startTime": "2026-09-04T12:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": "Match yet to begin",
+          "description": "Scheduled"
+        },
+        "awayTeam": {
+          "id": "247",
+          "logo": "https://highlightly.net/cricket/images/teams/247.png",
+          "name": "South Africa",
+          "abbreviation": "SA"
+        },
+        "homeTeam": {
+          "id": "1122",
+          "logo": "https://highlightly.net/cricket/images/teams/1122.png",
+          "name": "Namibia",
+          "abbreviation": "NAM"
+        },
+        "league": {
+          "id": "54233272",
+          "logo": null,
+          "name": "Namibia T20I Tri-Series [Aug 2026]",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54296832",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-07T00:00:00.000Z",
+        "country": {
+          "code": "AF",
+          "name": "Afghanistan",
+          "logo": "http://highlightly.net/cricket/images/countries/AF.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-04T05:30:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": "10 ov",
+              "score": "33/8"
+            }
+          },
+          "report": "Day 1 - Mah-e-Par chose to field.",
+          "description": "In play"
+        },
+        "awayTeam": {
+          "id": "48698337",
+          "logo": "https://highlightly.net/cricket/images/teams/48698337.png",
+          "name": "Mah-e-Par Stars",
+          "abbreviation": "MPS"
+        },
+        "homeTeam": {
+          "id": "48698372",
+          "logo": "https://highlightly.net/cricket/images/teams/48698372.png",
+          "name": "Maiwand Champions",
+          "abbreviation": "MWC"
+        },
+        "league": {
+          "id": "54296657",
+          "logo": null,
+          "name": "Ahmad Shah Abdali 4-day Tournament",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54296867",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-07T00:00:00.000Z",
+        "country": {
+          "code": "AF",
+          "name": "Afghanistan",
+          "logo": "http://highlightly.net/cricket/images/countries/AF.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-04T05:30:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": "11.5 ov",
+              "score": "33/1"
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": "Day 1 - Hindukush chose to field.",
+          "description": "In play"
+        },
+        "awayTeam": {
+          "id": "45984437",
+          "logo": "https://highlightly.net/cricket/images/teams/45984437.png",
+          "name": "Pamir Legends",
+          "abbreviation": "PAL"
+        },
+        "homeTeam": {
+          "id": "45984542",
+          "logo": "https://highlightly.net/cricket/images/teams/45984542.png",
+          "name": "Hindukush Strikers",
+          "abbreviation": "HIS"
+        },
+        "league": {
+          "id": "54296657",
+          "logo": null,
+          "name": "Ahmad Shah Abdali 4-day Tournament",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54211572",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "AE",
+          "name": "United Arab Emirates",
+          "logo": "http://highlightly.net/cricket/images/countries/AE.svg"
+        },
+        "dayType": "SINGLE",
+        "format": "T20",
+        "startTime": "2026-09-04T14:30:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": "Match yet to begin",
+          "description": "Scheduled"
+        },
+        "awayTeam": {
+          "id": "39086042",
+          "logo": "https://highlightly.net/cricket/images/teams/39086042.png",
+          "name": "Indonesia Women",
+          "abbreviation": "INA-W"
+        },
+        "homeTeam": {
+          "id": "10466507",
+          "logo": "https://highlightly.net/cricket/images/teams/10466507.png",
+          "name": "United Arab Emirates Women",
+          "abbreviation": "UAE-W"
+        },
+        "league": {
+          "id": "54211222",
+          "logo": null,
+          "name": "Women's Twenty20 Asia Cup",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54287697",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "CZ",
+          "name": "Czech Republic",
+          "logo": "http://highlightly.net/cricket/images/countries/CZ.svg"
+        },
+        "dayType": "SINGLE",
+        "format": "T20",
+        "startTime": "2026-09-04T11:30:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": "Match yet to begin",
+          "description": "Scheduled"
+        },
+        "awayTeam": {
+          "id": "51744037",
+          "logo": null,
+          "name": "Portugal Women",
+          "abbreviation": "POR-W"
+        },
+        "homeTeam": {
+          "id": "50302772",
+          "logo": "https://highlightly.net/cricket/images/teams/50302772.png",
+          "name": "Czech Republic Women",
+          "abbreviation": "CZE-W"
+        },
+        "league": {
+          "id": "54287347",
+          "logo": null,
+          "name": "Czech Republic Women's T20I Tri-Series",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54287487",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "World",
+          "name": "World",
+          "logo": "http://highlightly.net/cricket/images/countries/World.png"
+        },
+        "dayType": "SINGLE",
+        "format": "T20",
+        "startTime": "2026-09-04T12:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": "Match yet to begin",
+          "description": "Scheduled"
+        },
+        "awayTeam": {
+          "id": "50333012",
+          "logo": "https://highlightly.net/cricket/images/teams/50333012.png",
+          "name": "Croatia Women",
+          "abbreviation": "CRO-W"
+        },
+        "homeTeam": {
+          "id": "50922797",
+          "logo": "https://highlightly.net/cricket/images/teams/50922797.png",
+          "name": "Bulgaria Women",
+          "abbreviation": "BUL"
+        },
+        "league": {
+          "id": "54287242",
+          "logo": null,
+          "name": "Serbia Women's T20I Tri-Series",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54176082",
+        "startDate": "2026-09-04T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "World",
+          "name": "World",
+          "logo": "http://highlightly.net/cricket/images/countries/World.png"
+        },
+        "dayType": "SINGLE",
+        "format": "T20",
+        "startTime": "2026-09-04T13:15:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": "Match yet to begin",
+          "description": "Scheduled"
+        },
+        "awayTeam": {
+          "id": "54175487",
+          "logo": null,
+          "name": "Belfast Wolves",
+          "abbreviation": "BLW"
+        },
+        "homeTeam": {
+          "id": "54175592",
+          "logo": null,
+          "name": "Glasgow Cosmic",
+          "abbreviation": "GLC"
+        },
+        "league": {
+          "id": "54175627",
+          "logo": null,
+          "name": "European T20 Premier League",
+          "season": 2026
+        }
+      },
+      {
+        "id": "53697247",
+        "startDate": "2026-09-03T00:00:00.000Z",
+        "endDate": "2026-09-03T00:00:00.000Z",
+        "country": {
+          "code": "WI",
+          "name": "West Indies",
+          "logo": "http://highlightly.net/cricket/images/countries/WI.svg"
+        },
+        "dayType": "SINGLE",
+        "format": "T20",
+        "startTime": "2026-09-03T23:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": "13.5/20 ov, T:236",
+              "score": "98"
+            },
+            "home": {
+              "info": null,
+              "score": "235/4"
+            }
+          },
+          "report": "Patriots won by 137 runs",
+          "description": "Finished"
+        },
+        "awayTeam": {
+          "id": "22484737",
+          "logo": "https://highlightly.net/cricket/images/teams/22484737.png",
+          "name": "St Lucia Kings",
+          "abbreviation": "SLK"
+        },
+        "homeTeam": {
+          "id": "30019187",
+          "logo": "https://highlightly.net/cricket/images/teams/30019187.png",
+          "name": "St Kitts and Nevis Patriots",
+          "abbreviation": "STKNP"
+        },
+        "league": {
+          "id": "53696267",
+          "logo": null,
+          "name": "Caribbean Premier League",
+          "season": 2026
+        }
+      },
+      {
+        "id": "52968337",
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "endDate": "2026-09-05T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-02T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": "185 & 82"
+            },
+            "home": {
+              "info": "7.4 ov, T:185",
+              "score": "83 & 27/0"
+            }
+          },
+          "report": "Day 2 - Surrey need 158 runs.",
+          "description": "Stumps"
+        },
+        "awayTeam": {
+          "id": "51382",
+          "logo": "https://highlightly.net/cricket/images/teams/51382.png",
+          "name": "Yorkshire",
+          "abbreviation": "YORKS"
+        },
+        "homeTeam": {
+          "id": "47672",
+          "logo": "https://highlightly.net/cricket/images/teams/47672.png",
+          "name": "Surrey",
+          "abbreviation": "SURR"
+        },
+        "league": {
+          "id": "52966447",
+          "logo": null,
+          "name": "County Championship Division One",
+          "season": 2026
+        }
+      },
+      {
+        "id": "54331237",
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "endDate": "2026-09-05T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-02T09:30:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": "65 ov, T:334",
+              "score": "257/6"
+            },
+            "home": {
+              "info": null,
+              "score": "333"
+            }
+          },
+          "report": "Day 2 - PAK Under-19 need 77 runs.",
+          "description": "Stumps"
+        },
+        "awayTeam": {
+          "id": "103882",
+          "logo": "https://highlightly.net/cricket/images/teams/103882.png",
+          "name": "Pakistan Under-19s",
+          "abbreviation": "PAK19"
+        },
+        "homeTeam": {
+          "id": "34127",
+          "logo": "https://highlightly.net/cricket/images/teams/34127.png",
+          "name": "England Under-19s",
+          "abbreviation": "ENG19"
+        },
+        "league": {
+          "id": "54331132",
+          "logo": null,
+          "name": "Pakistan Under-19s in England",
+          "season": 2026
+        }
+      },
+      {
+        "id": "52968442",
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "endDate": "2026-09-05T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-02T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": "398"
+            },
+            "home": {
+              "info": "23 ov",
+              "score": "74/6"
+            }
+          },
+          "report": "Day 2 - Hampshire trail by 324 runs.",
+          "description": "Stumps"
+        },
+        "awayTeam": {
+          "id": "50122",
+          "logo": "https://highlightly.net/cricket/images/teams/50122.png",
+          "name": "Warwickshire",
+          "abbreviation": "WARKS"
+        },
+        "homeTeam": {
+          "id": "36927",
+          "logo": "https://highlightly.net/cricket/images/teams/36927.png",
+          "name": "Hampshire",
+          "abbreviation": "HANTS"
+        },
+        "league": {
+          "id": "52966447",
+          "logo": null,
+          "name": "County Championship Division One",
+          "season": 2026
+        }
+      },
+      {
+        "id": "52970507",
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "endDate": "2026-09-05T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-02T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": "151"
+            },
+            "home": {
+              "info": "24 ov",
+              "score": "247 & 116/2"
+            }
+          },
+          "report": "Day 2 - Middlesex lead by 212 runs.",
+          "description": "Stumps"
+        },
+        "awayTeam": {
+          "id": "39202",
+          "logo": "https://highlightly.net/cricket/images/teams/39202.png",
+          "name": "Lancashire",
+          "abbreviation": "LANCS"
+        },
+        "homeTeam": {
+          "id": "41792",
+          "logo": "https://highlightly.net/cricket/images/teams/41792.png",
+          "name": "Middlesex",
+          "abbreviation": "MIDDX"
+        },
+        "league": {
+          "id": "52966482",
+          "logo": null,
+          "name": "County Championship Division Two",
+          "season": 2026
+        }
+      },
+      {
+        "id": "52970472",
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "endDate": "2026-09-05T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-02T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": "205"
+            },
+            "home": {
+              "info": "76 ov",
+              "score": "225/7"
+            }
+          },
+          "report": "Day 2 - Northants lead by 20 runs.",
+          "description": "Stumps"
+        },
+        "awayTeam": {
+          "id": "32482",
+          "logo": "https://highlightly.net/cricket/images/teams/32482.png",
+          "name": "Durham",
+          "abbreviation": "DURH"
+        },
+        "homeTeam": {
+          "id": "42877",
+          "logo": "https://highlightly.net/cricket/images/teams/42877.png",
+          "name": "Northamptonshire",
+          "abbreviation": "NHNTS"
+        },
+        "league": {
+          "id": "52966482",
+          "logo": null,
+          "name": "County Championship Division Two",
+          "season": 2026
+        }
+      },
+      {
+        "id": "52970402",
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "endDate": "2026-09-05T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-02T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": "44 ov",
+              "score": "162/2"
+            },
+            "home": {
+              "info": null,
+              "score": "237"
+            }
+          },
+          "report": "Day 2 - Derbyshire trail by 75 runs.",
+          "description": "Stumps"
+        },
+        "awayTeam": {
+          "id": "31782",
+          "logo": "https://highlightly.net/cricket/images/teams/31782.png",
+          "name": "Derbyshire",
+          "abbreviation": "DERBS"
+        },
+        "homeTeam": {
+          "id": "36332",
+          "logo": "https://highlightly.net/cricket/images/teams/36332.png",
+          "name": "Gloucestershire",
+          "abbreviation": "GLOUC"
+        },
+        "league": {
+          "id": "52966482",
+          "logo": null,
+          "name": "County Championship Division Two",
+          "season": 2026
+        }
+      },
+      {
+        "id": "52968302",
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "endDate": "2026-09-05T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-02T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": "21.1 ov",
+              "score": "275 & 90/4"
+            },
+            "home": {
+              "info": null,
+              "score": "177"
+            }
+          },
+          "report": "Day 2 - Sussex lead by 188 runs.",
+          "description": "Stumps"
+        },
+        "awayTeam": {
+          "id": "48127",
+          "logo": "https://highlightly.net/cricket/images/teams/48127.png",
+          "name": "Sussex",
+          "abbreviation": "SUSS"
+        },
+        "homeTeam": {
+          "id": "34582",
+          "logo": "https://highlightly.net/cricket/images/teams/34582.png",
+          "name": "Essex",
+          "abbreviation": "ESSEX"
+        },
+        "league": {
+          "id": "52966447",
+          "logo": null,
+          "name": "County Championship Division One",
+          "season": 2026
+        }
+      },
+      {
+        "id": "52968372",
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "endDate": "2026-09-05T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-02T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": "12.3 ov",
+              "score": "23/2"
+            },
+            "home": {
+              "info": null,
+              "score": "451/8d"
+            }
+          },
+          "report": "Day 2 - Leics trail by 428 runs.",
+          "description": "Stumps"
+        },
+        "awayTeam": {
+          "id": "39797",
+          "logo": "https://highlightly.net/cricket/images/teams/39797.png",
+          "name": "Leicestershire",
+          "abbreviation": "LEICS"
+        },
+        "homeTeam": {
+          "id": "43227",
+          "logo": "https://highlightly.net/cricket/images/teams/43227.png",
+          "name": "Nottinghamshire",
+          "abbreviation": "NOTTS"
+        },
+        "league": {
+          "id": "52966447",
+          "logo": null,
+          "name": "County Championship Division One",
+          "season": 2026
+        }
+      },
+      {
+        "id": "52970437",
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "endDate": "2026-09-05T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-02T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": "217"
+            },
+            "home": {
+              "info": "60 ov",
+              "score": "238 & 197/3"
+            }
+          },
+          "report": "Day 2 - Kent lead by 218 runs.",
+          "description": "Stumps"
+        },
+        "awayTeam": {
+          "id": "51172",
+          "logo": "https://highlightly.net/cricket/images/teams/51172.png",
+          "name": "Worcestershire",
+          "abbreviation": "WORCS"
+        },
+        "homeTeam": {
+          "id": "38572",
+          "logo": "https://highlightly.net/cricket/images/teams/38572.png",
+          "name": "Kent",
+          "abbreviation": "KENT"
+        },
+        "league": {
+          "id": "52966482",
+          "logo": null,
+          "name": "County Championship Division Two",
+          "season": 2026
+        }
+      },
+      {
+        "id": "52968407",
+        "startDate": "2026-09-02T00:00:00.000Z",
+        "endDate": "2026-09-05T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-02T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": "6 ov",
+              "score": "194 & 30/1"
+            },
+            "home": {
+              "info": null,
+              "score": "441"
+            }
+          },
+          "report": "Day 2 - Glamorgan trail by 217 runs.",
+          "description": "Stumps"
+        },
+        "awayTeam": {
+          "id": "36157",
+          "logo": "https://highlightly.net/cricket/images/teams/36157.png",
+          "name": "Glamorgan",
+          "abbreviation": "GLAM"
+        },
+        "homeTeam": {
+          "id": "46797",
+          "logo": "https://highlightly.net/cricket/images/teams/46797.png",
+          "name": "Somerset",
+          "abbreviation": "SOM"
+        },
+        "league": {
+          "id": "52966447",
+          "logo": null,
+          "name": "County Championship Division One",
+          "season": 2026
+        }
+      },
+      {
+        "id": "53704807",
+        "startDate": "2026-09-01T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-01T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": null,
+          "description": "No live coverage"
+        },
+        "awayTeam": {
+          "id": "36962",
+          "logo": "https://highlightly.net/cricket/images/teams/36962.png",
+          "name": "Hampshire 2nd XI",
+          "abbreviation": "Ha2XI"
+        },
+        "homeTeam": {
+          "id": "36192",
+          "logo": "https://highlightly.net/cricket/images/teams/36192.png",
+          "name": "Glamorgan 2nd XI",
+          "abbreviation": "Gl2XI"
+        },
+        "league": {
+          "id": "53703302",
+          "logo": null,
+          "name": "Second Eleven Championship",
+          "season": 2026
+        }
+      },
+      {
+        "id": "53704877",
+        "startDate": "2026-09-01T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-01T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": null,
+          "description": "No live coverage"
+        },
+        "awayTeam": {
+          "id": "38677",
+          "logo": "https://highlightly.net/cricket/images/teams/38677.png",
+          "name": "Kent 2nd XI",
+          "abbreviation": "Ke2XI"
+        },
+        "homeTeam": {
+          "id": "43262",
+          "logo": "https://highlightly.net/cricket/images/teams/43262.png",
+          "name": "Nottinghamshire 2nd XI",
+          "abbreviation": "Nt2XI"
+        },
+        "league": {
+          "id": "53703302",
+          "logo": null,
+          "name": "Second Eleven Championship",
+          "season": 2026
+        }
+      },
+      {
+        "id": "53704842",
+        "startDate": "2026-09-01T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-01T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": null,
+          "description": "No live coverage"
+        },
+        "awayTeam": {
+          "id": "47707",
+          "logo": "https://highlightly.net/cricket/images/teams/47707.png",
+          "name": "Surrey 2nd XI",
+          "abbreviation": "Sr2XI"
+        },
+        "homeTeam": {
+          "id": "36367",
+          "logo": "https://highlightly.net/cricket/images/teams/36367.png",
+          "name": "Gloucestershire 2nd XI",
+          "abbreviation": "GL2XI"
+        },
+        "league": {
+          "id": "53703302",
+          "logo": null,
+          "name": "Second Eleven Championship",
+          "season": 2026
+        }
+      },
+      {
+        "id": "53704947",
+        "startDate": "2026-09-01T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-01T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": null,
+          "description": "No live coverage"
+        },
+        "awayTeam": {
+          "id": "39832",
+          "logo": "https://highlightly.net/cricket/images/teams/39832.png",
+          "name": "Leicestershire 2nd XI",
+          "abbreviation": "Le2XI"
+        },
+        "homeTeam": {
+          "id": "51417",
+          "logo": "https://highlightly.net/cricket/images/teams/51417.png",
+          "name": "Yorkshire 2nd XI",
+          "abbreviation": "Yo2XI"
+        },
+        "league": {
+          "id": "53703302",
+          "logo": null,
+          "name": "Second Eleven Championship",
+          "season": 2026
+        }
+      },
+      {
+        "id": "53704912",
+        "startDate": "2026-09-01T00:00:00.000Z",
+        "endDate": "2026-09-04T00:00:00.000Z",
+        "country": {
+          "code": "GB-ENG",
+          "name": "England",
+          "logo": "http://highlightly.net/cricket/images/countries/GB-ENG.svg"
+        },
+        "dayType": "MULTI",
+        "format": "TEST",
+        "startTime": "2026-09-01T10:00:00.000Z",
+        "state": {
+          "teams": {
+            "away": {
+              "info": null,
+              "score": null
+            },
+            "home": {
+              "info": null,
+              "score": null
+            }
+          },
+          "report": null,
+          "description": "No live coverage"
+        },
+        "awayTeam": {
+          "id": "39237",
+          "logo": "https://highlightly.net/cricket/images/teams/39237.png",
+          "name": "Lancashire 2nd XI",
+          "abbreviation": "Lc2XI"
+        },
+        "homeTeam": {
+          "id": "48197",
+          "logo": "https://highlightly.net/cricket/images/teams/48197.png",
+          "name": "Sussex 2nd XI",
+          "abbreviation": "Su2XI"
+        },
+        "league": {
+          "id": "53703302",
+          "logo": null,
+          "name": "Second Eleven Championship",
+          "season": 2026
+        }
+      }
+    ],
+    "plan": {
+      "tier": "BASIC",
+      "message": "All data available with current plan."
+    },
+    "pagination": {
+      "totalCount": 28,
+      "offset": 0,
+      "limit": 100
+    }
+  }
+}

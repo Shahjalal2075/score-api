@@ -1,0 +1,39 @@
+# Render blueprint for the live-score server.
+#
+# The disk is the important part: without it every deploy would wipe the
+# cached matches, the pairing codes and — most damaging — the record of
+# how many API requests have been spent today.
+services:
+  - type: web
+    name: cricket-live-server
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+
+    disk:
+      name: cricket-live-data
+      mountPath: /var/data
+      sizeGB: 1
+
+    envVars:
+      - key: DATA_DIR
+        value: /var/data
+      - key: TIMEZONE
+        value: Asia/Dhaka
+      - key: DAILY_REQUEST_LIMIT
+        value: "100"
+      - key: HIGHLIGHTLY_BASE_URL
+        value: https://cricket.highlightly.net
+
+      # Set these in the Render dashboard, not here — they're secrets.
+      - key: HIGHLIGHTLY_API_KEY
+        sync: false
+      - key: LIVE_SYNC_KEY
+        sync: false
+      - key: FANTASY_API_URL
+        sync: false
+      # Your Netlify URL, e.g. https://cricket-live.netlify.app
+      - key: CORS_ORIGIN
+        sync: false

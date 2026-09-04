@@ -1,0 +1,1083 @@
+{
+  "fetchedAt": "2026-09-04T05:45:00.504Z",
+  "data": {
+    "predictions": null,
+    "venue": {
+      "city": null,
+      "name": null,
+      "country": null,
+      "capacity": null
+    },
+    "forecast": {
+      "status": null,
+      "temperature": null
+    },
+    "statistics": [],
+    "squad": [
+      {
+        "team": {
+          "id": 1122,
+          "logo": "https://highlightly.net/cricket/images/teams/1122.png",
+          "name": "Namibia",
+          "abbreviation": "NAM"
+        },
+        "players": [
+          {
+            "id": {
+              "id": "24343101-0e3d-43e7-8090-2764ac68e050",
+              "name": "Gerhard Erasmus",
+              "roles": [
+                "right-arm offbreak"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm offbreak"
+              ]
+            },
+            "name": "Gerhard Erasmus",
+            "roles": [
+              "allrounder"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm offbreak"
+            ]
+          },
+          {
+            "id": {
+              "id": "58d2a8cf-6b96-4a25-ad25-80f7761a5eff",
+              "name": "Jan Balt",
+              "roles": [
+                "right-arm offbreak"
+              ],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm offbreak"
+              ]
+            },
+            "name": "Jan Balt",
+            "roles": [
+              "middle-order batter"
+            ],
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm offbreak"
+            ]
+          },
+          {
+            "id": {
+              "id": "de03e488-e5a5-45b7-ae19-bc0d3c122b63",
+              "name": "Jack Brassell",
+              "roles": [
+                "right-arm medium"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm medium"
+              ]
+            },
+            "name": "Jack Brassell",
+            "roles": [
+              "bowler"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm medium"
+            ]
+          },
+          {
+            "id": {
+              "id": "57f04a45-b315-4a1a-ac3d-3e5ae5e15432",
+              "name": "Alexander Busing-Volschenk",
+              "roles": [
+                "right-arm medium"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm medium"
+              ]
+            },
+            "name": "Alexander Busing-Volschenk",
+            "roles": [
+              "allrounder"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm medium"
+            ]
+          },
+          {
+            "id": {
+              "id": "65731577-0638-4b69-a05d-065032b37e14",
+              "name": "Jan Frylinck",
+              "roles": [
+                "left-arm fast-medium"
+              ],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": [
+                "left-arm fast-medium"
+              ]
+            },
+            "name": "Jan Frylinck",
+            "roles": [
+              "allrounder"
+            ],
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": [
+              "left-arm fast-medium"
+            ]
+          },
+          {
+            "id": {
+              "id": "36bb5f1b-8cf2-4e3f-ac2e-7936cb86f60c",
+              "name": "Zane Green",
+              "roles": [],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": []
+            },
+            "name": "Zane Green",
+            "roles": [
+              "wicketkeeper batter"
+            ],
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": []
+          },
+          {
+            "id": {
+              "id": "2ec31a43-c1b7-4322-a795-fe0f0da57238",
+              "name": "Max Heingo",
+              "roles": [
+                "right-arm medium"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm medium"
+              ]
+            },
+            "name": "Max Heingo",
+            "roles": [
+              "bowler"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm medium"
+            ]
+          },
+          {
+            "id": {
+              "id": "628c7136-0aba-4bdc-921c-6ee73473f5bc",
+              "name": "Malan Kruger",
+              "roles": [],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": []
+            },
+            "name": "Malan Kruger",
+            "roles": [
+              "batter"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": []
+          },
+          {
+            "id": {
+              "id": "b6f1eb7e-bec4-46dd-b0a2-f8dca1c983cc",
+              "name": "Jan Nicol Loftie-Eaton",
+              "roles": [
+                "right-arm medium",
+                "legbreak"
+              ],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm medium",
+                "legbreak"
+              ]
+            },
+            "name": "Jan Nicol Loftie-Eaton",
+            "roles": [
+              "batting allrounder"
+            ],
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm medium",
+              "legbreak"
+            ]
+          },
+          {
+            "id": {
+              "id": "6105f7ec-8dec-4156-81c9-c3f239695065",
+              "name": "Bernard Scholtz",
+              "roles": [
+                "slow left-arm orthodox"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "slow left-arm orthodox"
+              ]
+            },
+            "name": "Bernard Scholtz",
+            "roles": [
+              "bowler"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "slow left-arm orthodox"
+            ]
+          },
+          {
+            "id": {
+              "id": "a35e1282-28a4-4259-9c3f-deeb461bac1f",
+              "name": "JJ Smit",
+              "roles": [
+                "left-arm medium-fast"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "left-arm medium-fast"
+              ]
+            },
+            "name": "JJ Smit",
+            "roles": [
+              "bowling allrounder"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "left-arm medium-fast"
+            ]
+          },
+          {
+            "id": {
+              "id": "3e998eac-fb0f-4424-af4a-e513a55dbe36",
+              "name": "Waldo Smith",
+              "roles": [
+                "right-arm medium"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm medium"
+              ]
+            },
+            "name": "Waldo Smith",
+            "roles": [
+              "allrounder"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm medium"
+            ]
+          },
+          {
+            "id": {
+              "id": "3ca11e01-3b07-48e5-87e6-f55614d13f76",
+              "name": "Louren Steenkamp",
+              "roles": [
+                "right-arm offbreak"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm offbreak"
+              ]
+            },
+            "name": "Louren Steenkamp",
+            "roles": [
+              "top-order batter"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm offbreak"
+            ]
+          },
+          {
+            "id": {
+              "id": "67841311-2e6c-46cb-868f-306d25ad1a1d",
+              "name": "Junior Taanyanda",
+              "roles": [
+                "right-arm medium"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm medium"
+              ]
+            },
+            "name": "Junior Taanyanda",
+            "roles": [
+              "allrounder"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm medium"
+            ]
+          },
+          {
+            "id": {
+              "id": "b54bca98-ea7f-4cc2-8116-36de1dbc6434",
+              "name": "Ruben Trumpelmann",
+              "roles": [
+                "left-arm fast"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "left-arm fast"
+              ]
+            },
+            "name": "Ruben Trumpelmann",
+            "roles": [
+              "bowler"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "left-arm fast"
+            ]
+          },
+          {
+            "id": {
+              "id": "8c69cd69-a797-466a-a9af-0e971dd7b0b1",
+              "name": "Michael van Lingen",
+              "roles": [
+                "left-arm medium",
+                "slow left-arm orthodox"
+              ],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": [
+                "left-arm medium",
+                "slow left-arm orthodox"
+              ]
+            },
+            "name": "Michael van Lingen",
+            "roles": [
+              "opening batter"
+            ],
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": [
+              "left-arm medium",
+              "slow left-arm orthodox"
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 247,
+          "logo": "https://highlightly.net/cricket/images/teams/247.png",
+          "name": "South Africa",
+          "abbreviation": "SA"
+        },
+        "players": [
+          {
+            "id": {
+              "id": "f32bd0fa-2488-4d13-af33-f8be9fcd2b60",
+              "name": "Bjorn Fortuin",
+              "roles": [
+                "slow left-arm orthodox"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "slow left-arm orthodox"
+              ]
+            },
+            "name": "Bjorn Fortuin",
+            "roles": [
+              "bowler"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "slow left-arm orthodox"
+            ]
+          },
+          {
+            "id": {
+              "id": "94b5878a-6c25-4266-b7da-31dd48e8e882",
+              "name": "Eathan Bosch",
+              "roles": [
+                "right-arm fast"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm fast"
+              ]
+            },
+            "name": "Eathan Bosch",
+            "roles": [
+              "bowler"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm fast"
+            ]
+          },
+          {
+            "id": {
+              "id": "30879c61-1140-4b28-8cd1-6b164408324f",
+              "name": "Dewald Brevis",
+              "roles": [
+                "legbreak"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "legbreak"
+              ]
+            },
+            "name": "Dewald Brevis",
+            "roles": [
+              "middle-order batter"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "legbreak"
+            ]
+          },
+          {
+            "id": {
+              "id": "a29095b2-11bd-4358-9dce-aade8a321cd6",
+              "name": "Tony de Zorzi",
+              "roles": [
+                "right-arm offbreak"
+              ],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm offbreak"
+              ]
+            },
+            "name": "Tony de Zorzi",
+            "roles": [
+              "top-order batter"
+            ],
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm offbreak"
+            ]
+          },
+          {
+            "id": {
+              "id": "d1cbd32d-41db-47fd-acc7-a4251a086f21",
+              "name": "Connor Esterhuizen",
+              "roles": [],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": []
+            },
+            "name": "Connor Esterhuizen",
+            "roles": [
+              "top-order batter"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": []
+          },
+          {
+            "id": {
+              "id": "4ab90c02-f6af-49a1-a4b0-227ee2468d9b",
+              "name": "Rubin Hermann",
+              "roles": [],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": []
+            },
+            "name": "Rubin Hermann",
+            "roles": [
+              "wicketkeeper"
+            ],
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": []
+          },
+          {
+            "id": {
+              "id": "40c757de-984d-4c67-b342-c30d5f444ae3",
+              "name": "Jordan Hermann",
+              "roles": [],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": []
+            },
+            "name": "Jordan Hermann",
+            "roles": [
+              "middle-order batter"
+            ],
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": []
+          },
+          {
+            "id": {
+              "id": "67a37b82-ca78-48f3-b01e-180e57e59a5a",
+              "name": "Duan Jansen",
+              "roles": [
+                "left-arm fast"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "left-arm fast"
+              ]
+            },
+            "name": "Duan Jansen",
+            "roles": [
+              "bowler"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "left-arm fast"
+            ]
+          },
+          {
+            "id": {
+              "id": "f5c952a9-2f24-4b40-8b9b-51bbab99a27c",
+              "name": "Kwena Maphaka",
+              "roles": [
+                "left-arm fast"
+              ],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": [
+                "left-arm fast"
+              ]
+            },
+            "name": "Kwena Maphaka",
+            "roles": [
+              "bowler"
+            ],
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": [
+              "left-arm fast"
+            ]
+          },
+          {
+            "id": {
+              "id": "dfe89830-4b26-4255-b7be-27daf7c3e8da",
+              "name": "Nqobani Mokoena",
+              "roles": [
+                "right-arm fast-medium"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm fast-medium"
+              ]
+            },
+            "name": "Nqobani Mokoena",
+            "roles": [
+              "bowler"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm fast-medium"
+            ]
+          },
+          {
+            "id": {
+              "id": "e2ef5be0-af53-4d48-879d-367e814a15d4",
+              "name": "Nqabayomzi Peter",
+              "roles": [
+                "legbreak"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "legbreak"
+              ]
+            },
+            "name": "Nqabayomzi Peter",
+            "roles": [
+              "bowler"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "legbreak"
+            ]
+          },
+          {
+            "id": {
+              "id": "f76af909-2ad9-479e-82fe-01043e684cbd",
+              "name": "Lhuan-dre Pretorius",
+              "roles": [],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": []
+            },
+            "name": "Lhuan-dre Pretorius",
+            "roles": [
+              "wicketkeeper batter"
+            ],
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": []
+          },
+          {
+            "id": {
+              "id": "51ace73e-b367-416b-b91b-8732e37fe964",
+              "name": "Prenelan Subrayen",
+              "roles": [
+                "right-arm offbreak"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm offbreak"
+              ]
+            },
+            "name": "Prenelan Subrayen",
+            "roles": [
+              "allrounder"
+            ],
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm offbreak"
+            ]
+          }
+        ]
+      }
+    ],
+    "bestBatsmen": [
+      {
+        "team": {
+          "id": 1122,
+          "logo": "https://highlightly.net/cricket/images/teams/1122.png",
+          "name": "Namibia",
+          "abbreviation": "NAM"
+        },
+        "players": [
+          {
+            "id": {
+              "id": "24343101-0e3d-43e7-8090-2764ac68e050",
+              "name": "Gerhard Erasmus",
+              "roles": [
+                "right-arm offbreak"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm offbreak"
+              ]
+            },
+            "name": "Gerhard Erasmus",
+            "roles": [
+              "allrounder"
+            ],
+            "statistics": {
+              "runs": 415,
+              "average": 46.1111,
+              "innings": 10,
+              "matches": 10,
+              "battingStrikeRate": 165.33
+            },
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm offbreak"
+            ]
+          },
+          {
+            "id": {
+              "id": "65731577-0638-4b69-a05d-065032b37e14",
+              "name": "Jan Frylinck",
+              "roles": [
+                "left-arm fast-medium"
+              ],
+              "battingStyles": [
+                "left-hand bat"
+              ],
+              "bowlingStyles": [
+                "left-arm fast-medium"
+              ]
+            },
+            "name": "Jan Frylinck",
+            "roles": [
+              "allrounder"
+            ],
+            "statistics": {
+              "runs": 325,
+              "average": 36.1111,
+              "innings": 9,
+              "matches": 9,
+              "battingStrikeRate": 132.65
+            },
+            "battingStyles": [
+              "left-hand bat"
+            ],
+            "bowlingStyles": [
+              "left-arm fast-medium"
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 247,
+          "logo": "https://highlightly.net/cricket/images/teams/247.png",
+          "name": "South Africa",
+          "abbreviation": "SA"
+        },
+        "players": [
+          {
+            "id": {
+              "id": "30879c61-1140-4b28-8cd1-6b164408324f",
+              "name": "Dewald Brevis",
+              "roles": [
+                "legbreak"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "legbreak"
+              ]
+            },
+            "name": "Dewald Brevis",
+            "roles": [
+              "middle-order batter"
+            ],
+            "statistics": {
+              "runs": 267,
+              "average": 66.75,
+              "innings": 5,
+              "matches": 5,
+              "battingStrikeRate": 173.37
+            },
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "legbreak"
+            ]
+          },
+          {
+            "id": {
+              "id": "d1cbd32d-41db-47fd-acc7-a4251a086f21",
+              "name": "Connor Esterhuizen",
+              "roles": [],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": []
+            },
+            "name": "Connor Esterhuizen",
+            "roles": [
+              "top-order batter"
+            ],
+            "statistics": {
+              "runs": 206,
+              "average": 34.3333,
+              "innings": 7,
+              "matches": 8,
+              "battingStrikeRate": 140.13
+            },
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": []
+          }
+        ]
+      }
+    ],
+    "bestBowlers": [
+      {
+        "team": {
+          "id": 1122,
+          "logo": "https://highlightly.net/cricket/images/teams/1122.png",
+          "name": "Namibia",
+          "abbreviation": "NAM"
+        },
+        "players": [
+          {
+            "id": {
+              "id": "de03e488-e5a5-45b7-ae19-bc0d3c122b63",
+              "name": "Jack Brassell",
+              "roles": [
+                "right-arm medium"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm medium"
+              ]
+            },
+            "name": "Jack Brassell",
+            "roles": [
+              "bowler"
+            ],
+            "statistics": {
+              "balls": 216,
+              "average": 24.42,
+              "economy": 8.14,
+              "innings": 10,
+              "matches": 10,
+              "wickets": 12,
+              "concededRuns": 293,
+              "battingStrikeRate": 18
+            },
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm medium"
+            ]
+          },
+          {
+            "id": {
+              "id": "a35e1282-28a4-4259-9c3f-deeb461bac1f",
+              "name": "JJ Smit",
+              "roles": [
+                "left-arm medium-fast"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "left-arm medium-fast"
+              ]
+            },
+            "name": "JJ Smit",
+            "roles": [
+              "bowling allrounder"
+            ],
+            "statistics": {
+              "balls": 115,
+              "average": 12.91,
+              "economy": 7.41,
+              "innings": 6,
+              "matches": 6,
+              "wickets": 11,
+              "concededRuns": 142,
+              "battingStrikeRate": 10.45
+            },
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "left-arm medium-fast"
+            ]
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 247,
+          "logo": "https://highlightly.net/cricket/images/teams/247.png",
+          "name": "South Africa",
+          "abbreviation": "SA"
+        },
+        "players": [
+          {
+            "id": {
+              "id": "51ace73e-b367-416b-b91b-8732e37fe964",
+              "name": "Prenelan Subrayen",
+              "roles": [
+                "right-arm offbreak"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "right-arm offbreak"
+              ]
+            },
+            "name": "Prenelan Subrayen",
+            "roles": [
+              "allrounder"
+            ],
+            "statistics": {
+              "balls": 102,
+              "average": 14.5,
+              "economy": 6.82,
+              "innings": 5,
+              "matches": 5,
+              "wickets": 8,
+              "concededRuns": 116,
+              "battingStrikeRate": 12.75
+            },
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "right-arm offbreak"
+            ]
+          },
+          {
+            "id": {
+              "id": "67a37b82-ca78-48f3-b01e-180e57e59a5a",
+              "name": "Duan Jansen",
+              "roles": [
+                "left-arm fast"
+              ],
+              "battingStyles": [
+                "right-hand bat"
+              ],
+              "bowlingStyles": [
+                "left-arm fast"
+              ]
+            },
+            "name": "Duan Jansen",
+            "roles": [
+              "bowler"
+            ],
+            "statistics": {
+              "balls": 72,
+              "average": 12.25,
+              "economy": 8.17,
+              "innings": 3,
+              "matches": 3,
+              "wickets": 8,
+              "concededRuns": 98,
+              "battingStrikeRate": 9
+            },
+            "battingStyles": [
+              "right-hand bat"
+            ],
+            "bowlingStyles": [
+              "left-arm fast"
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "54233657",
+    "startDate": "2026-09-04T00:00:00.000Z",
+    "endDate": "2026-09-04T00:00:00.000Z",
+    "country": {
+      "code": "World",
+      "name": "World",
+      "logo": "http://highlightly.net/cricket/images/countries/World.png"
+    },
+    "dayType": "SINGLE",
+    "format": "T20",
+    "startTime": "2026-09-04T12:00:00.000Z",
+    "state": {
+      "teams": {
+        "away": {
+          "info": null,
+          "score": null
+        },
+        "home": {
+          "info": null,
+          "score": null
+        }
+      },
+      "report": "Match yet to begin",
+      "description": "Scheduled"
+    },
+    "awayTeam": {
+      "id": "247",
+      "logo": "https://highlightly.net/cricket/images/teams/247.png",
+      "name": "South Africa",
+      "abbreviation": "SA"
+    },
+    "homeTeam": {
+      "id": "1122",
+      "logo": "https://highlightly.net/cricket/images/teams/1122.png",
+      "name": "Namibia",
+      "abbreviation": "NAM"
+    },
+    "league": {
+      "id": "54233272",
+      "logo": null,
+      "name": "Namibia T20I Tri-Series [Aug 2026]",
+      "season": 2026
+    }
+  }
+}
