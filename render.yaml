@@ -10,7 +10,7 @@ services:
     plan: starter
     buildCommand: npm install
     startCommand: npm start
-    healthCheckPath: /api/health
+    healthCheckPath: /health
 
     disk:
       name: cricket-live-data
@@ -29,6 +29,11 @@ services:
 
       # Set these in the Render dashboard, not here — they're secrets.
       - key: HIGHLIGHTLY_API_KEY
+        sync: false
+      # Optional extra allowances, used only when the one before runs out.
+      - key: HIGHLIGHTLY_API_KEY_2
+        sync: false
+      - key: HIGHLIGHTLY_API_KEY_3
         sync: false
       - key: LIVE_SYNC_KEY
         sync: false

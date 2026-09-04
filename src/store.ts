@@ -111,6 +111,11 @@ export interface RequestLogEntry {
   status: number;
   /** Straight from Highlightly's response header, when it sends one. */
   remainingFromApi: number | null;
+  /**
+   * Which key made the call, 1-based. Absent on entries written before
+   * multiple keys were supported, which are treated as key 1.
+   */
+  keyIndex?: number;
 }
 
 const LOG_FILE = path.join(DATA_DIR, "request-log.json");

@@ -10,6 +10,13 @@ import {
 } from "./highlightly.ts";
 import { extractMatchStats } from "./extractStats.ts";
 import {
+  AUTO_SEND_INTERVAL_MS,
+  disableAutoSend,
+  enableAutoSend,
+  getAutoSend,
+  startAutoSendLoop,
+} from "./autoSend.ts";
+import {
   connectMatch,
   forgetLink,
   readLink,
@@ -229,7 +236,11 @@ app.get("/api/cached-dates", async (_req, res) => {
 app.get("/api/link/:matchId", async (req, res) => {
   const { matchId } = req.params;
 
-  const [link, cached] = await Promise.all([readLink(matchId), getCachedMatch<any>(matchId)]);
+  const [link, cached, autoSend] = await Promise.all([
+    readLink(matchId),
+    getCachedMatch<any>(matchId),
+    getAutoSend(matchId),
+  ]);
   const extracted = cached ? extractMatchStats(cached.data) : null;
 
   const pairedNames = new Set(link?.players.map((p) => p.liveName) ?? []);
@@ -238,6 +249,8 @@ app.get("/api/link/:matchId", async (req, res) => {
   return res.json({
     link,
     connected: !!link,
+    autoSend,
+    autoSendIntervalMinutes: AUTO_SEND_INTERVAL_MS / 60000,
     // Every name this match involves, and whether it has a code.
     players: squadNames.map((name) => {
       const paired = link?.players.find((p) => p.liveName === name);
@@ -322,6 +335,48 @@ app.put("/api/link/:matchId/player", async (req, res) => {
   }
 });
 
+/**
+ * POST /api/link/:matchId/auto-send   body: { enabled }
+ *
+ * Turning it on is refused unless every player is paired. An unpaired
+ * player's figures are dropped silently, and an unattended loop is
+ * exactly where nobody would notice.
+ */
+app.post("/api/link/:matchId/auto-send", async (req, res) => {
+  const { matchId } = req.params;
+  const enabled = req.body?.enabled !== false;
+
+  if (!enabled) {
+    await disableAutoSend(matchId);
+    return res.json({ autoSend: null });
+  }
+
+  const link = await readLink(matchId);
+  if (!link) return res.status(400).json({ error: "Pair this match first." });
+
+  const cached = await getCachedMatch<any>(matchId);
+  if (!cached) return res.status(400).json({ error: "Open the match once before enabling this." });
+
+  const extracted = extractMatchStats(cached.data);
+  const paired = new Set(link.players.map((player) => player.liveName));
+  const unpaired = extracted.names.filter((name) => !paired.has(name));
+
+  if (unpaired.length > 0) {
+    return res.status(400).json({
+      error: `${unpaired.length} player${unpaired.length === 1 ? " isn't" : "s aren't"} paired. Pair everyone before switching this on.`,
+      unpaired,
+    });
+  }
+
+  const state = String(cached.data?.state?.description ?? "");
+  if (/finished|abandoned|cancelled/i.test(state)) {
+    return res.status(400).json({ error: "This match has already finished." });
+  }
+
+  const autoSend = await enableAutoSend(matchId);
+  return res.json({ autoSend });
+});
+
 // DELETE /api/link/:matchId — forgets the pairing on this side only.
 app.delete("/api/link/:matchId", async (req, res) => {
   await forgetLink(req.params.matchId);
@@ -365,16 +420,38 @@ app.post("/api/link/:matchId/send", async (req, res) => {
   }
 });
 
-// Render pings this to decide whether the service is healthy.
-app.get("/api/health", (_req, res) =>
-  res.json({
+/**
+ * Liveness check.
+ *
+ * Exposed at both /health and /api/health. Hosting platforms tend to
+ * assume a bare /health, and having to remember the prefix while
+ * configuring a deploy is a good way to end up with a service marked
+ * unhealthy for no reason.
+ */
+function health(_req: express.Request, res: express.Response) {
+  return res.json({
     ok: true,
     timezone: TIMEZONE,
     // Handy after a deploy: confirms the disk is mounted where expected.
     dataDir: process.env.DATA_DIR || "./data",
     bridgeConfigured: !!(process.env.FANTASY_API_URL && process.env.LIVE_SYNC_KEY),
-  })
-);
+    // Number of API keys loaded, so a missing second or third key shows
+    // up here rather than as a surprise when the first runs out.
+    apiKeys: [
+      process.env.HIGHLIGHTLY_API_KEY,
+      process.env.HIGHLIGHTLY_API_KEY_2,
+      process.env.HIGHLIGHTLY_API_KEY_3,
+    ].filter(Boolean).length,
+    uptimeSeconds: Math.round(process.uptime()),
+  });
+}
+
+app.get("/health", health);
+app.get("/api/health", health);
+
+// The loop runs on the server, not in the browser: a closed tab must
+// not silently stop updates that are meant to be unattended.
+startAutoSendLoop();
 
 const PORT = Number(process.env.PORT || 5100);
 app.listen(PORT, () => {

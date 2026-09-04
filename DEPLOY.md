@@ -34,7 +34,7 @@ this needs.
    | Runtime | Node |
    | Build command | `npm install` |
    | Start command | `npm start` |
-   | Health check path | `/api/health` |
+   | Health check path | `/health` |
 
 4. **Disks** → **Add disk**:
 
@@ -62,11 +62,14 @@ CORS_ORIGIN           https://your-panel.netlify.app
 > `render.yaml` in the repo sets the non-secret ones for you if you
 > deploy as a Blueprint instead.
 
-6. Deploy, then open `/api/health`. It should report:
+6. Deploy, then open `/health` (also available at `/api/health`). It should report:
 
 ```json
-{ "ok": true, "dataDir": "/var/data", "bridgeConfigured": true }
+{ "ok": true, "dataDir": "/var/data", "bridgeConfigured": true, "apiKeys": 3 }
 ```
+
+`apiKeys` is how many Highlightly keys were loaded — a missing second or
+third key shows up here rather than as a surprise when the first runs out.
 
 `dataDir` showing `./data` means the disk isn't mounted — fix that before
 pairing anything.
